@@ -1,10 +1,7 @@
 package com.bridgelabz.logical;
 import java.util.Scanner;
 public class Perfectnumber {
-
 	public static void main(String[] args) {
-		
-
 		int n;
         int sum=0;
 
@@ -14,8 +11,7 @@ public class Perfectnumber {
         
         n=sc.nextInt();
 
-       
-        for(int i=1; i<n;i++){
+         for(int i=1; i<n;i++){
 
             if(n%i==0){
                 sum=sum+i;
@@ -23,12 +19,11 @@ public class Perfectnumber {
             }
         }
         if(sum==n){
-            System.out.println("enter number is perfect ");
+            System.out.println("enter no is perfect ");
         }
         else
-            System.out.println("Enter number is not perfect");
-    
-     	}
+            System.out.println("Enter no is not perfect");
     }
+}
 
 
